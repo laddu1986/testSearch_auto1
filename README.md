@@ -13,4 +13,4 @@ framework for this task. Please do not use any record-pay tools)
 6. Verify all cars are sorted by price descending
 
 
-![Demo](https://github.com/ekorab/qa_challenge/qa_challenge/demo.gif)
+![Demo](https://github.com/ekorab/qa_challenge/blob/master/demo.gif)
