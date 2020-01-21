@@ -14,3 +14,10 @@ framework for this task. Please do not use any record-pay tools)
 
 
 ![Demo](https://github.com/ekorab/qa_challenge/blob/master/demo.gif)
+
+
+
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=alert_status)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=bugs)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
