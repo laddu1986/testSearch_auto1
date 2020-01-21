@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class SearchPage {
@@ -47,15 +48,15 @@ public class SearchPage {
 
     public static List<Integer> getYearListFromSpecList() {
         java.util.Iterator<WebElement> specListYearItem = specListYear.iterator();
-        List<Integer> yearList = new ArrayList<>();
+        List<String> stringYearList = new ArrayList<>();
         while (specListYearItem.hasNext()) {
-            WebElement row = specListYearItem.next();
-            String textMonthYear = row.getText();
-            String yearAsAString = textMonthYear.substring(textMonthYear.length() - 4);
-            int yearForRecord = Integer.parseInt(yearAsAString.trim());
-            yearList.add(yearForRecord);
+            String specListItemText = specListYearItem.next().getText();
+            String textMonthYear = specListItemText.substring(specListItemText.length() - 4);
+            stringYearList.add(textMonthYear);
         }
-        return yearList;
+        return stringYearList.stream()
+                .map(Integer::valueOf)
+                .collect(Collectors.toList());
     }
 
     @FindBy(css = "[data-qa-selector=price]")

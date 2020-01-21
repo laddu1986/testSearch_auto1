@@ -65,6 +65,5 @@ public class Auto1Test extends TestBase {
         softly.assertAll();
 
         assertThat(SearchPage.getFormattedPriceListFromSpecList()).isSortedAccordingTo(Comparator.reverseOrder());
-
     }
 }
