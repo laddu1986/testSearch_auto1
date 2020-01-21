@@ -1,4 +1,6 @@
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=alert_status)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=bugs)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
 
 ## Task 2: Create automation test for search functionality
 ##### Description: Search is a crucial part of all Auto1 platforms and Automation testing is essential part of software development in Auto Group. Please create automation test which will do the following.
@@ -18,6 +20,4 @@ framework for this task. Please do not use any record-pay tools)
 
 
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=alert_status)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=bugs)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ekorab_qa_challenge&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=ekorab_qa_challenge)
+
