@@ -17,6 +17,6 @@ framework for this task. Please do not use any record-pay tools)
 
 ![Demo](https://github.com/ekorab/qa_challenge/blob/master/demo.gif)
 
-
+Automation done with Selenium JUnit, AssertJ 
 Setup: 
 1. Path to ChromeDriver can be found in TestBase
